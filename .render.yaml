@@ -1,0 +1,7 @@
+# .render.yaml
+services:
+  - type: web
+    name: sovereign-default-api
+    env: docker
+    plan: free
+    region: oregon
